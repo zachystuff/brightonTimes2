@@ -3,32 +3,35 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- Viewport added -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brighton Times</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="resources\css\style.css" rel="stylesheet" type="text/css">
+  <link href="resources\css\reset.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <!--Header section. Each element is given a class to make styling easier. Notice the naming convention  -->
   <header class="header">
-    <div class="header_inner">
-      <img class="header_logo" alt="iconic view of a landscape" src="resources\images\city.png" />
-      <h1 class="header_title">The Brighton Times</h1>
+    <div class="header__inner">
+      <img class="header__logo" alt="iconic view of a landscape" src="resources\images\city.png" />
+      <h1 class="header__title">The Brighton Times</h1>
     </div>
   </header>
   <!--navs, ul, li all have class.This aids in identifying content and debugging  -->
   <nav class="nav" id="drawer">
-    <ul class="nav_list">
-      <li class="nav_item">
+    <ul class="nav__list">
+      <li class="nav__item">
         <a href="#">News</a>
       </li>
-      <li class="nav_item">
+      <li class="nav__item">
         <a href="#">Events</a>
       </li>
-      <li class="nav_item">
+      <li class="nav__item">
         <a href="#">Culture</a>
       </li>
-      <li class="nav_item">
+      <li class="nav__item">
         <a href="#">Blog</a>
       </li>
     </ul>
@@ -46,27 +49,27 @@
       </section>
       <!--Section is comprised mostly of link-list elements notice how everything has a class, makes for easier styling!  -->
       <section class="news top-news">
-        <h2 class="news_title">
-          Top news <a class="news_more" href="#">+ more</a>
+        <h2 class="news__title">
+          Top news <a class="news__more" href="#">+ more</a>
         </h2>
         <ul>
-          <li class="top-news_item">
+          <li class="top-news__item">
             <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
           </li>
-          <li class="top-news_item">
+          <li class="top-news__item">
             <a href="#">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</a>
           </li>
-          <li class="top-news_item">
+          <li class="top-news__item">
             <a href="#">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</a>
           </li>
-          <li class="top-news_item">
-            <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>>
+          <li class="top-news__item">
+            <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>
           </li>
         </ul>
       </section>
       <!--The scores section cosists of a 4X4 table. use for reference  -->
       <section class="scores">
-        <table class="scores_table">
+        <table class="scores__table">
           <thead>
             <tr>
               <th>date</th>
@@ -125,7 +128,7 @@
         <ul class="weather__next">
           <li class="weather__next__item">
             <span>Mon</span>
-            <img class="weather__next__image" alt="icon of a sunny day" src="resources\images\weather.png">
+            <img class="weather__next__image" alt="icon of a sunny day" src="resources\images\sunny.png">
             <span>13 °C</span>
           </li>
           <li class="weather__next__item">
@@ -157,8 +160,7 @@
             <img class="snippet__thumbnail" alt="picture of a girl with a large, stuffed dog toy" src="resources\images\dog.jpg">
             <h3 class="snippet__title"><a href="#">Gastropub distillery Marfa farm-to-table</a></h3>
             <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh
-              four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four
-              loko.
+              four loko.
             </p>
           </li>
           <li class="snippet">
